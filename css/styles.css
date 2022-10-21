@@ -170,15 +170,8 @@ h2 {
 
 .menu {
   list-style: none;
-  display: flex;
 }
 
 button {
   cursor: pointer;
-}
-
-.header-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
