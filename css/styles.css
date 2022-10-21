@@ -175,3 +175,7 @@ h2 {
 button {
   cursor: pointer;
 }
+
+.menu {
+  display: flex;
+}
