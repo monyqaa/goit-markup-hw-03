@@ -1,0 +1,177 @@
+:root {
+  --main-text-color: #212121;
+  --second-type-color: #ffffff;
+  --highlight-color: #2196f3;
+  --paragrapgh-color: #757575;
+  --second-background: #2f303a;
+  --third-background: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--main-text-color);
+  margin: 0;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.19;
+  font-size: 26px;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.nav-link:hover {
+  color: var(--highlight-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--paragrapgh-color);
+  text-decoration: none;
+}
+
+.header-contact:hover {
+  color: var(--highlight-color);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+}
+
+.dark-mode {
+  background: var(--second-background);
+  color: var(--second-type-color);
+}
+
+.main-button {
+  background: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  color: var(--second-type-color);
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.heading-lorem {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.lorem-text {
+  line-height: 1.71;
+  color: var(--paragrapgh-color);
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.166;
+  color: var(--main-text-color);
+}
+
+.main-light-background {
+  background: var(--third-background);
+}
+
+.full-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 1.1875;
+  color: var(--paragrapgh-color);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.19;
+  font-size: 26px;
+  color: var(--second-type-color);
+  text-decoration: none;
+}
+
+.address {
+  line-height: 1.71;
+  color: var(--second-type-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address:hover {
+  color: var(--highlight-color);
+}
+
+.footer-contact {
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contact:hover {
+  color: var(--highlight-color);
+}
+
+.horizontal-line {
+  border: 1px solid #ececec;
+}
+
+.portfolio-button {
+  background: var(--third-background);
+  border-radius: 4px;
+  width: 93px;
+  height: 38px;
+  border: 0;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.portfolio-button:hover {
+  background: var(--highlight-color);
+  color: var(--second-type-color);
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--paragrapgh-color);
+}
+
+.list-style {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
