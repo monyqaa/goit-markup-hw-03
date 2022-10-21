@@ -168,8 +168,9 @@ h2 {
   color: var(--paragrapgh-color);
 }
 
-.list-style {
+.menu {
   list-style: none;
+  display: flex;
 }
 
 button {
@@ -180,8 +181,4 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.menu {
-  display: flex;
 }
