@@ -237,11 +237,13 @@ button {
 .doing-images {
   display: flex;
   gap: 30px;
+  padding-left: 0;
 }
 
 .team-list {
   display: flex;
   gap: 30px;
+  padding-left: 0;
 }
 
 .team-description {
