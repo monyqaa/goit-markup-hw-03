@@ -37,6 +37,10 @@ body {
   color: var(--highlight-color);
 }
 
+.active-now:visited {
+  color: var(--highlight-color);
+}
+
 .header-contact {
   font-weight: 500;
   line-height: 1.14;
@@ -53,12 +57,6 @@ body {
   font-size: 44px;
   line-height: 1.3636;
   color: var(--second-type-color);
-}
-
-.first-section {
-  background: var(--second-background);
-  text-align: center;
-  padding: 200px 0;
 }
 
 .main-button {
@@ -190,6 +188,12 @@ button {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.first-section {
+  background: var(--second-background);
+  text-align: center;
+  padding: 200px 0;
 }
 
 header {
