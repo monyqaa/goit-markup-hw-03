@@ -157,7 +157,7 @@ h2 {
 }
 
 .project-name {
-  margin-top: 20px;
+  margin-top: 0;
   margin-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
@@ -306,6 +306,7 @@ img {
 }
 
 .project-description {
+  padding-top: 20px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
