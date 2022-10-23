@@ -159,12 +159,14 @@ h2 {
 }
 
 .project-name {
+  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .project-type {
+  margin-left: 24px;
   font-size: 16px;
   line-height: 1.875;
   color: var(--paragrapgh-color);
@@ -264,4 +266,23 @@ button {
 
 .address-list {
   padding-left: 0;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.project-li {
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eeeeee;
 }
