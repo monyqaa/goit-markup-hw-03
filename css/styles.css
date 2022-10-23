@@ -157,13 +157,17 @@ h2 {
 }
 
 .project-name {
+  margin-top: 20px;
   margin-left: 24px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .project-type {
+  margin-top: 0;
+  margin-bottom: 20px;
   margin-left: 24px;
   font-size: 16px;
   line-height: 1.875;
@@ -291,9 +295,18 @@ header {
 
 .project-li {
   flex-basis: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
 }
 
 img {
   max-width: 100%;
+}
+
+.project-img {
+  display: block;
+}
+
+.project-description {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
